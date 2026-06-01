@@ -1,0 +1,25 @@
+calculator_project/
+│── src/
+│   ├── calculator.py
+│   ├── models.py
+│   ├── interfaces.py
+│   ├── repository.py
+│   ├── service.py
+│   └── main.py
+│
+│── tests/
+│   ├── unit/
+│   │   ├── test_calculator.py
+│   │   ├── test_calculator_service.py
+│   │   └── test_xml_history_repository.py
+│   │
+│   ├── integration/
+│   │   ├── test_calculator_workflow.py
+│   │   └── test_history_persistence.py
+│   │
+│   └── conftest.py
+│
+│── requirements.txt
+│── pytest.ini
+│── README.md
+│── TEST_PLAN.md
